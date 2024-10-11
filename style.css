@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .calculator {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #result {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: right;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #728;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  .navbar {
+   height: 100%; /* Tinggi navbar sesuai tinggi layar */
+        width: 200px; /* Lebar navbar */
+        position: fixed; /* Navbar ditempatkan secara tetap di sebelah kiri */
+        background-color: #333; /* Warna latar belakang navbar */
+      }
+  
+      /* Gaya CSS untuk tautan dalam navbar */
+      .navbar  a {
+        display: block; /* Menampilkan tautan sebagai blok agar horizontal */
+        font-size: 16px; /* Ukuran teks */
+        color: white; /* Warna teks */
+        text-align: center;
+        padding: 14px 16px; /* Ruang di sekitar tautan */
+        text-decoration: none; /* Hapus garis bawah */
+      }
+  
+      /* Gaya CSS untuk tautan saat dihover */
+      .navbar a:hover {
+        background-color: #ddd; /* Warna latar belakang saat dihover */
+        color: black; /* Warna teks saat dihover */
+      }
+  
+      /* Konten utama untuk menghindari tumpang tindih dengan navbar */
+      .content {
+        margin-left: 220px; /* Margin agar konten tidak tertutup oleh navbar */
+        padding: 20px;
+      }
+    
+  
